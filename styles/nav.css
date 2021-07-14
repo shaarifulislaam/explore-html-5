@@ -1,0 +1,43 @@
+ nav > ul{    /*  (>) immidiate ja element ace oita */
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin: 20px;
+    padding: 10px 20px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+nav li a:hover{
+    color: coral;
+    border: 5px solid cornflowerblue;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+nav li a:focus{
+    background: darkgoldenrod;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background: lightgreen;
+    padding: 0;
+    margin: 0;
+}
+nav > ul > li:hover > ul{
+    display: block;
+    margin: 0;
+    padding: 0;
+   
+}
+.dropdown li a:hover{
+    margin-top: 2px;
+    padding: 0 5px;
+}
+.dropdown li{
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .container-1{
+            width: 80%;
+            margin-left: 100px;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Explose SVG for fun.
+    </h1>
+   <div class="container">
+    <div class="container-1">
+        <svg viewbox="0 0 200 200" style="border: 1px solid lightcoral; width: 400px; height: 400px;">
+            <!-- <rect x="50" y="50" height="100px" width="100px" fill="yellow"></rect> -->
+            <circle cx="100" cy="100" r="75" fill ="yellow"></circle>
+            <circle cx="65" cy="70" r="20" fill ="black"></circle>
+            <circle cx="130" cy="70" r="20" fill ="black"></circle>
+            <path d="M65 125 130 125" stroke="black" stroke-width="10"></path>
+         </svg>
+    </div>
+     
+     <br><br>
+     <div class="container-1">
+        <svg viewbox="0 0 200 200" style="border: 1px solid lightcoral; width: 400px; height: 400px;">
+            <!-- <rect x="50" y="50" height="100px" width="100px" fill="yellow"></rect> -->
+            <circle cx="100" cy="100" r="75" fill ="yellow"></circle>
+            <circle cx="65" cy="70" r="20" fill ="black"></circle>
+            <circle cx="130" cy="70" r="20" fill ="black"></circle>
+            <path d="M65 125 A1, 0.8 0 0, 0 130 125" stroke="black" stroke-width="10"></path>
+         </svg>
+     </div>
+   </div>
+
+    
+</body>
+</html>
